@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
     }
 
 
-  return (2
+  return (
     <div className='portfolio-container'>{mapAllScreens()}</div>
   )
 }
