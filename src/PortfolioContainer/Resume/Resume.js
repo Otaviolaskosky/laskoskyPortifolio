@@ -55,38 +55,38 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
+    { skill: "PHP", ratingPercentage: 95 },
+    { skill: "Django", ratingPercentage: 70 },
+    { skill: "Node JS", ratingPercentage: 70 },
+    { skill: "MySql", ratingPercentage: 90 },
+    { skill: "SQL Server", ratingPercentage: 90 },
+    { skill: "HTML", ratingPercentage: 90 },
+    { skill: "CSS", ratingPercentage: 90 },
   ];
 
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2024", toDate: "2024" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+      subHeading: "Technologies Used: React JS, Bootsrap, Node JS",
     },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Eccomerce React Django",
+      duration: { fromDate: "2024", toDate: "2024" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "I developed this Eccommerce through the React and Djanco Course I took on Udemy.",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  React and Django",
     },
     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Primacredi Internal System",
+      duration: { fromDate: "2018", toDate: "2024" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "I developed this system with the aim of improving the administrative procedures of the Primacredi company.",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: PHP, jQuery, Bootstrap, MySql, HTML and CSS.",
     },
   ];
 
@@ -196,16 +196,16 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        heading="Sports Practice"
+        description="Sports practice enhances my physical conditioning, skill development, and mental toughness. It fosters my teamwork."
       />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="Indulging in calming melodies is a non-negotiable for me. Browsing through Spotify’s rock musics occasionally serves as my ultimate stress buster."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Movies and Series"
+        description="Movies and series have a profound impact on my life. They enhance my emotional intelligence, spark creativity, provide relaxation, boost language skills, and encourage social bonding."
       />
     </div>,
   ];
