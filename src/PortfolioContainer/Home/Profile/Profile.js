@@ -1,6 +1,8 @@
 import React from 'react'
 import Typical from 'react-typical'
+import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
+
 
 export default function Profile(){
     return (
@@ -59,7 +61,9 @@ export default function Profile(){
                     </div>
 
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
+                        <button className='btn primary-btn'
+                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                        >
                             Hire Me
                         </button>
                         <a href='laskoskycv.pdf' download="Laskosky's Resume.pdf">
